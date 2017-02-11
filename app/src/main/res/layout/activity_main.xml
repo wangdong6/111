@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bantang.app.bantang.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></com.ashokvarma.bottomnavigation.BottomNavigationBar>
+    <!--LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+           <RadioGroup
+               android:id="@+id/radiogroup"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:orientation="horizontal">
+               <RadioButton
+                   android:id="@+id/rbt_title"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:checked="true"
+                   android:gravity="center_horizontal"
+                   android:button="@null"
+                   android:drawableTop="@drawable/nav_bottom_title"
+                   android:text="首页"/>
+               <RadioButton
+                   android:id="@+id/rbt_find"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:gravity="center_horizontal"
+                   android:drawableTop="@drawable/nav_bottom_find"
+                   android:text="发现"
+                   android:button="@null"/>
+               <ImageView
+                   android:id="@+id/iv_add"
+                   android:src="@drawable/ic_main_tab_publish_enter"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <RadioButton
+                   android:id="@+id/rbt_msg"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:gravity="center_horizontal"
+                   android:drawableTop="@drawable/nav_bottom_msg"
+                   android:text="消息"
+                   android:button="@null"/>
+               <RadioButton
+                   android:id="@+id/rbt_mine"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:gravity="center_horizontal"
+                   android:drawableTop="@drawable/nav_bottom_mine"
+                   android:text="我的"
+                   android:button="@null"/>
+           </RadioGroup>
+   </LinearLayout>-->
+
+
+</LinearLayout>
